@@ -19,7 +19,7 @@ int main() {
     } else if (imc < 25.0) {
         printf("Peso normal\n");
     } else if (imc < 30.0) {
-        printf("Sobrepeso");
+        printf("Sobrepeso\n");
     } else if (imc < 35.0) {
         printf("Obesidade grau 1\n");
     } else if (imc < 40.0) {
