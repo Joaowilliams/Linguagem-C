@@ -2,15 +2,15 @@
 
 int main() {
 
-    int imc;
-    int peso;
-    float altura; 
+    float peso, altura, imc;
     
     printf("Qual o seu peso?  ");
-    scanf("%d", &peso);
+    scanf("%f", &peso);
 
     printf("Qual a sua altura?  ");
     scanf("%f", &altura);
+
+    imc = peso / (altura * altura);
 
     printf("Seu IMC e: %2.f  ", imc);
 
@@ -27,6 +27,6 @@ int main() {
     } else {
         printf("Obesidade grau 3\n");
     }
-    
+
     return 0;
 }
