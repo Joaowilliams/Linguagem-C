@@ -18,11 +18,5 @@ int main() {
         case (Abaixo de 18.5: Abaixo do peso)
     }
 
-
-
-
-
-
-
     return 0;
 }
