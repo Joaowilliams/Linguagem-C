@@ -14,11 +14,11 @@ int main() {
 
     idade = ano_atual - ano_nascimento;
 
-    if (idade >=18) {
-        
-        printf("Voce completa %d anos em %d e podera tirar a habilitacao.", idade, ano_atual);
-    }
-
-
+    if (idade >= 18) {
+        printf("Voce podera tirar a habilitacao.\n  ");
+    } else {
+        printf("Voce nao poderar tirar a habilitacao\n  ");
+     }
+    
     return 0;
 }
