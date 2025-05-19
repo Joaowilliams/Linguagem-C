@@ -5,7 +5,7 @@ int main() {
     float peso, altura, imc;
 
     printf("Digite seu nome:  ");
-    scanf("%s", &nome);
+    scanf("%s", nome);
 
     printf("Digite seu peso:  ");
     scanf("%f", &peso);
