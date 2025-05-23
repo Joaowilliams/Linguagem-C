@@ -11,6 +11,7 @@ void Crescente (int n) {
 }
 
 int main() {
+    
     int N;
     printf("Informe o valor de N:  ");
     scanf("%d", &N);
