@@ -8,7 +8,6 @@ void Decrescente (int n) {
 
     printf("%d", n);
     Decrescente ( n - 1);
-    
 }
 
 int main() {
