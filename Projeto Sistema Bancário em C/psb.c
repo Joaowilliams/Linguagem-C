@@ -1,20 +1,51 @@
 #include <stdio.h>
+#include <windows.h> 
+#include <stdlib.h> 
+
+
+int mostrarMenu() {
+    int opcao;
+
+    printf("===== SISTEMA BANCARIO =====\n  ");
+    printf("0 - Sair\n  ");
+    printf("1 - Criar Conta\n  ");
+    printf("2 - Exibir Contas\n  ");
+    printf("3 - Depositar\n  ");
+    printf("4 - Sacar\n  ");
+    printf("5 - Buscar Conta\n  ");
+    printf("===========================\n  ");
+    scanf("%d", &opcao);
+    
+    return opcao;
+}
+
+void criarConta() {
+    printf("Criar Conta Selecionada.\n"  );
+}
+
+void exibirContas() {
+    printf("Exibir Conta Selecionada.\n"  );
+}
+
+void depositar() {
+    printf("Depositar Conta Selecionada.\n"  );
+}
+
+void sacar() {
+    printf("Sacar Conta Selecionada.\n"  );
+}
+
+void buscarConta() {
+    printf("Buscar Conta Selecionada;\n"  );
+}
+
 
 int main() {
     
     int opcao; 
 
     do {
-        printf("===== SISTEMA BANCARIO =====\n  ");
-        printf("0 - Sair\n  ");
-        printf("1 - Criar Conta\n  ");
-        printf("2 - Exibir Contas\n  ");
-        printf("3 - Depositar\n  ");
-        printf("4 - Sacar\n  ");
-        printf("5 - Buscar Conta\n  ");
-        printf("===========================\n  ");
-        scanf("%d", &opcao);
-
+           
         switch (opcao) {
             case 0:
                 printf("Saindo do sistema...\n  ");
@@ -39,17 +70,12 @@ int main() {
                 break;
         }
 
+        Sleep(3000);
+        system("cls");
+
     } while (opcao != 0);
 
-    
-        
     return 0;
 
 }
   
-        
-
-   
-
-
-    
