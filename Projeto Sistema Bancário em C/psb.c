@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <windows.h> 
 #include <stdlib.h> 
@@ -44,8 +45,10 @@ int main() {
     
     int opcao; 
 
-    do {
-           
+    do { 
+
+        opcao = mostrarMenu();
+
         switch (opcao) {
             case 0:
                 printf("Saindo do sistema...\n  ");
