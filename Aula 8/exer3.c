@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    
     int numeros[3][3];
     int soma;
     
