@@ -30,8 +30,6 @@ int main() {
     if (!encontrado) {
         printf("O numero %d nao foi encontrado.\n", N);
     }
-
-
-
+    
     return 0;
 }
